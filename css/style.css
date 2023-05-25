@@ -1,0 +1,179 @@
+/* index */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(97, 97, 97);
+    color: black;
+}
+
+.ul-main {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    }
+
+div-messi {
+    width: 100%;
+}
+
+.div-futgod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: aliceblue;
+    height: 20rem;
+    background-image: url(../assets/image/cesped2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.div-pelotaNike {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../assets/image/pelota\ nike.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 83rem;
+    height: 50rem;
+}
+
+.logoAdidas{
+    width: 6rem;
+    height: 5rem;
+}
+.logoNike {
+    width: 6rem;
+    height: 5rem;
+}
+.logoPuma {
+    width: 6rem;
+    height: 5rem;
+}
+.logoMas {
+    width: 6rem;
+    height: 5rem;
+}
+.footer-index {
+    display: grid;
+    grid-template-areas:
+    ¨div-footerindex div-footer index div2-footerindex div2-footerindex¨
+    ¨div-footerindex div-footer index div2-footerindex div2-footerindex¨
+    ¨div-footerindex div-footer index div2-footerindex div2-footerindex¨
+    ¨p p p p¨;
+    justify-content: space-around;
+    align-content: center;
+    background-color: black;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.img1{
+    border-radius: 50%;
+    overflow: hidden;
+}
+/* hasta aca index */
+
+/* desde aca desk1 */
+
+.header-desk1{
+    display: flex;
+    padding-left: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.ul-nav-desk1{
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+.nav-desk1{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.sec-desk1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+}
+
+.div2{
+    display: flex;
+    margin-bottom: 1 rem;
+    justify-content: center;
+}
+
+
+
+/* deskcard */
+
+.main-deskcard{
+    background-color: black;
+    color: aliceblue;
+}
+
+.nav-deskcard{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+
+.div-sec1{
+    display: flex;
+    justify-content: center;
+}
+.ultimodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-deskcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/* EMPIEZA MEDIA */
+
+@media (max-width 1024px){
+    .login{
+        display: none;
+    }
+}
